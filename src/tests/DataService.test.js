@@ -1,7 +1,7 @@
 import mockAxios from "axios";
 import getGitHubUser from "../services/DataService";
 
-describe("Data Service fake Tests", () => {
+describe("Data Service component", () => {
   it("should call axios and return correct data", async () => {
     const user = 'plntry';
 
